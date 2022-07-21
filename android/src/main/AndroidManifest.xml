@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deeplink_lister_flutter_plugin">
+
+    <application>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name="com.example.deeplink_lister_flutter_plugin.BlackActivity"
+            android:exported="true">
+            <meta-data android:name="flutter_deeplinking_enabled" android:value="true" />
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="krishna.com" android:pathPrefix="/blank" />
+                <data android:scheme="https" />
+<!--                Add below line for samsung phone  -->
+                <data android:scheme="intent" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
