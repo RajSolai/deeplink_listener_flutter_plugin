@@ -1,0 +1,22 @@
+PODS:
+  - deeplink_lister_flutter_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - deeplink_lister_flutter_plugin (from `.symlinks/plugins/deeplink_lister_flutter_plugin/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  deeplink_lister_flutter_plugin:
+    :path: ".symlinks/plugins/deeplink_lister_flutter_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  deeplink_lister_flutter_plugin: 97bbf68e9a1bef54f9aed1b191c01d85879991d0
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
